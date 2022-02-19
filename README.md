@@ -24,8 +24,7 @@
 
 7. Install custom Iterm2 colors
    Copy: https://raw.githubusercontent.com/arag0re/arag0rize/iTerm/Sternburg.itermcolors
-
-Paste contents in a new file somewhere and name it filename.itermcolors
+   Paste contents in a new file somewhere and name it filename.itermcolors
 
 8. Update iterm2 preferences
    Create new profile, make it default, delete default profile
@@ -37,15 +36,12 @@ Paste contents in a new file somewhere and name it filename.itermcolors
 
 10.   Enable suggestions
       `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+      Add plugin to .zshrc file: plugins=(zsh-autosuggestions)
 
-Add plugin to .zshrc file: plugins=(zsh-autosuggestions)
+11.   Configure Vs Code
+      Update terminal.integrated.fontFamily setting to 'SourceCodePro+PowerLine+AwesomeRegular'
 
-11. Configure Vs Code
-    Update terminal.integrated.fontFamily setting to 'SourceCodePro+PowerLine+AwesomeRegular'
-
-12.s Enable quake-style terminal
-Open iterm2 preferences > keys, then configure hotkey to Ctrl + ~ to Show/Hide all windows with a system-wide hotkey
-
-Open iterm2 preferences > profile > window, set space to all spaces and check hide after opening
-
-Open system preferences > users & groups > login items, then add iterm. Check hide.
+12.   Enable quake-style terminal
+      Open iterm2 preferences > keys, then configure hotkey to Ctrl + ~ to Show/Hide all windows with a system-wide hotkey
+      Open iterm2 preferences > profile > window, set space to all spaces and check hide after opening
+      Open system preferences > users & groups > login items, then add iterm. Check hide.
