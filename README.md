@@ -1,4 +1,4 @@
-# arag0reized
+# arag0rized
 
 ### spice up macOS terminal
 
