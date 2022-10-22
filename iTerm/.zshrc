@@ -13,7 +13,7 @@ export ZSH="/Users/antonidas/.oh-my-zsh"
 export PATH=/Users/antonidas/.pyenv/versions/3.10.0/bin:$PATH
 export HOMEBREW_NO_INSTALL_CLEANUP=TRUE
 export HOMEBREW_NO_ENV_HINTS=TRUE
-export HOMEBREW_GITHUB_API_TOKEN=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
+export HOMEBREW_GITHUB_API_TOKEN=<TokenGoesHere>
 echo "Welcome $USER ...
 how can I help you today ser ?"
 # Set name of the theme to load --- if set to "random", it will
