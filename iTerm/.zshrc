@@ -82,7 +82,20 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git pip pyenv python vscode yarn macos xcode node npm brew)
+plugins=(
+git 
+pip 
+pyenv 
+python 
+vscode 
+yarn 
+macos 
+xcode 
+node 
+npm 
+brew
+sudo
+)
 
 
 source $ZSH/oh-my-zsh.sh
