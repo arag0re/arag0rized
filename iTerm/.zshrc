@@ -9,8 +9,8 @@ fi
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/antonidas/.oh-my-zsh"
-export PATH=/Users/antonidas/.pyenv/versions/3.10.0/bin:$PATH
+export ZSH="$HOME/.oh-my-zsh"
+export PATH=$HOME/.pyenv/versions/3.10.0/bin:$PATH
 export HOMEBREW_NO_INSTALL_CLEANUP=TRUE
 export HOMEBREW_NO_ENV_HINTS=TRUE
 export HOMEBREW_GITHUB_API_TOKEN=<TokenGoesHere>
@@ -95,6 +95,7 @@ node
 npm 
 brew
 sudo
+zsh-autosuggestions
 )
 
 
