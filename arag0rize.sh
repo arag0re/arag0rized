@@ -11,4 +11,4 @@ for user in /home/*; do
     chsh -s /bin/zsh "$user"
   fi
 done
-source "$USER/.zshrc" | zsh
+source "$USER/.zshrc"
